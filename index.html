@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Aviators - byaviators.com">
+
+  <link rel="stylesheet" href="assets/js/rs-plugin/css/settings.css" type="text/css">
+  <link rel="stylesheet" href="assets/js/rs-plugin/css/fullwidth.css" type="text/css">
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700" rel="stylesheet" type="text/css">
+  <link href="assets/icons/pictopro-normal/style.css" rel="stylesheet" type="text/css">
+  <link href="assets/icons/pictopro-outline/style.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/bootstrap-responsive.css" type="text/css">
+  <link rel="stylesheet" href="assets/fancybox/jquery.fancybox.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/infine.css" type="text/css">
+
+  <!--[if lt IE 9]>
+       	<link rel="stylesheet" id="ie8-css"  href="assets/css/ie8.css" type="text/css" media="all">
+	<![endif]-->
+
+  <title>R4TLI | Sri Lanka Society of Transport & Logistics (SLSTL)</title>
+</head>
+
+<body data-spy="scroll" data-target=".main-navigation">
+
+  <div class="navigation">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+
+          <div class="logo">
+            <a href="#nav-header" class="roll"><span>R4TLI 2016</span></a>
+          </div>
+          <!-- /.logo -->
+
+          <div class="main-navigation nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#nav-header">Home</a></li>
+              <li><a href="#nav-about">About</a></li>
+              <li><a href="#nav-information">Information</a></li>
+              <li><a href="#nav-abstract">Abstracts and papers</a></li>
+              <li><a href="#our-partners">Partners</a></li>
+              <li><a href="#nav-contact">Contact</a></li>
+              <li><a href="#venue">Venue</a></li>
+            </ul>
+          </div>
+          <!-- /.main-navigation -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.navbar-inner -->
+    </div>
+    <!-- /.main-navigation -->
+  </div>
+  <!-- /.navigation -->
+
+  <div id="nav-header" class="header-wrapper">
+    <div class="header">
+
+      <div class="fullwidthbanner-container">
+        <div class="fullwidthbanner">
+          <ul class="unstyled">
+            <li class="first-slide" data-transition="fade">
+              <img src="assets/pictures/transport1.jpg" data-fullwidthcentering="on">
+
+              <div class="caption sfr caption-main" data-x="center" data-y="200" data-speed="900" data-start="0" data-easing="easeOutBack" fullwidthcentering="on">
+                <div class="header-item">
+                  <div>
+                    <h1><strong>R4TLI 2016</strong></h1>
+                    <h3><strong>3-4 June 2016</strong></h4>
+                  </div>
+                  <!-- /.title -->
+                </div>
+                <!-- /.header-item -->
+
+                <div class="countdown wrapper">
+                  <div class="countdown-container">
+                    <div class="clock row">
+
+                      <div class="clock-item clock_days countdown-time-value span2" >
+                        <div class="wrap">
+                          <div class="inner">
+                            <div id="canvas_days"></div>
+
+                            <div class="text">
+                              <p class="val">0</p>
+                              <p class="type_days type-time">DAYS</p>
+                            </div>
+                            <!-- /.text -->
+                          </div>
+                          <!-- /.inner -->
+                        </div>
+                        <!-- /.wrap -->
+                      </div>
+                      <!-- /.clock-item -->
+
+                      <div class="clock-item  clock_hours countdown-time-value span2">
+                        <div class="wrap">
+                          <div class="inner">
+                            <div id="canvas_hours"></div>
+
+                            <div class="text">
+                              <p class="val">0</p>
+                              <p class="type_hours type-time">HOURS</p>
+                            </div>
+                            <!-- /.text -->
+                          </div>
+                          <!-- /.inner -->
+                        </div>
+                        <!-- /.wrap -->
+                      </div>
+                      <!-- /.clock-item -->
+
+                      <div class="clock-item clock_minutes countdown-time-value span2">
+                        <div class="wrap">
+                          <div class="inner">
+                            <div id="canvas_minutes"></div>
+
+                            <div class="text">
+                              <p class="val">0</p>
+                              <p class="type_minutes type-time">MINUTES</p>
+                            </div>
+                            <!-- /.text -->
+                          </div>
+                          <!-- /.inner -->
+                        </div>
+                        <!-- /.wrap -->
+                      </div>
+                      <!-- /.clock-item -->
+
+                      <div class="clock-item clock_seconds countdown-time-value span2">
+                        <div class="wrap">
+                          <div class="inner">
+                            <div id="canvas_seconds"></div>
+
+                            <div class="text">
+                              <p class="val">0</p>
+                              <p class="type_seconds type-time">SECONDS</p>
+                            </div>
+                            <!-- /.text -->
+                          </div>
+                          <!-- /.inner -->
+                        </div>
+                        <!-- /.wrap -->
+                      </div>
+                      <!-- /.clock-item -->
+                    </div>
+                    <!-- /.countdown-container -->
+
+                    <div class="clock-done">
+                      <p>We have started!</p>
+                    </div>
+                    <!-- /.clock-done -->
+                  </div>
+                  <!-- /.countdown-container -->
+                </div>
+                <!-- /.countdown -->
+              </div>
+              <!-- /.caption -->
+            </li>
+            <li class="second-slide" data-transition="fade">
+                <img src="assets/pictures/home-light1.jpg" fullwidthcentering="on">
+
+                <div class="caption sfr caption-main" data-x="center" data-y="200" data-speed="900" data-start="0" data-easing="easeOutBack">
+                    <div class="header-item">
+                        <div>
+                            <h1><strong>R4TLI 2016</strong></h1>
+                            <h3><strong>Proudly Presented by SLSTL </strong></h3>
+                  </div>
+                </div>
+                <!-- /.header-item -->
+              </div>
+              <!-- /.caption -->
+            </li>
+          </ul>
+          <!-- /.revolution -->
+        </div>
+      </div>
+    </div>
+    <!-- /.header -->
+  </div>
+  <!-- /.header-wrapper -->
+
+  <div id="nav-subscribe" class="subscribe-wrapper">
+    <div class="subscribe">
+      <div class="container">
+        <div class="form row">
+          <div class="span8 offset2">
+            <h4>Subscribe and get detailed information</h4>
+
+            <div class="row">
+              <div class="span6 offset1">
+                <form method="post" action="http://html.infine.byaviators.com/subscribe.php">
+                  <div>
+                    <input type="email" class="span6 subscription-field" name="subscribe" placeholder="Your e-mail" required="required">
+
+                    <button>
+                      <span class="icon-normal-right-arrow-small"></span>
+                    </button>
+                  </div>
+                </form>
+
+                <div class="success">
+                  <p>
+                    Thank you for your interest.
+                    <br>
+                    <i class="icon icon-normal-heart-rounded"></i>
+                  </p>
+                </div>
+                <!-- /.success -->
+              </div>
+              <!-- /.span6 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.span8 -->
+        </div>
+        <!-- /.form -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.subscribe -->
+  </div>
+  <!-- /.subscribe-wrapper -->
+
+  <div id="nav-about" class="features-wrapper">
+    <div class="features">
+      <div class="features-inner container">
+        <div class="row">
+          <div class="item orange span4">
+            <div class="row">
+              <div class="wrapper-icon span1">
+                <div class="background-icon">
+                  <i class="icon icon-outline-book"></i>
+                </div>
+                <!-- /.background-icon -->
+              </div>
+              <!-- /.wrapper-icon -->
+
+              <div class="text-wrapper span3 pull-right">
+                <h3>Objective</h3>
+
+                <p class="features-description">
+                  R4TLI is an initiative that endeavors to promote research and development in the transport & logistics sector in Sri Lanka that would help diagnose its current issues and identify potential improvements based on scientific evidence. This annual research
+                  conference intends to build a platform where the needs of the industry can be discussed and scientific processes developed for rectification of issues can be showcases through research presentations
+                </p>
+              </div>
+              <!-- /.text-wrapper -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.item -->
+
+          <div class="item blue span4">
+            <div class="row">
+              <div class="wrapper-icon span1">
+                <div class="background-icon">
+                  <i class="icon icon-outline-information"></i>
+                </div>
+                <!-- /.background-icon -->
+              </div>
+              <!-- /.wrapper-icon -->
+
+              <div class="text-wrapper span3">
+                <h3>Organization</h3>
+
+                <p class="features-description">In this respect the Chartered Institute of Logistics & Transport Sri Lanka (CILT SL) partners the newly formed Society of Transport & Logistics Sri Lanka- a member of the East Asia Society for Transport Studies (EASTS). It will also seek
+                  support from the East Asia Society for Transport Studies (EASTS), along with government and private sector agencies in Sri Lanka,
+                </p>
+              </div>
+              <!-- /.text-wrapper -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.item -->
+
+          <div class="item yellow span4">
+            <div class="row">
+              <div class="wrapper-icon span1">
+                <div class="background-icon">
+                  <i class="icon icon-outline-megaphone"></i>
+                </div>
+                <!-- /.background-icon -->
+              </div>
+              <!-- /.wrapper-icon -->
+
+              <div class="text-wrapper span3">
+                <h3>Important Dates
+                            </h3>
+                <div class="features-description">
+                  <p>Call for Abstracts: 1st Feb 2016 </p>
+                  <p>Abstract Submission: Feb 29, 2016 </p>
+                  <p>Acceptance Notification: March 31, 2016</p>
+                  <p>Camera Ready Abstract/Paper: April 30, 2016</p>
+                  <p>Submission of Slides for Presentation: May 31, 2016</p>
+                  <p>Conference: June 3-4, 2016</p>
+                </div>
+
+              </div>
+              <!-- /.text-wrapper -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.item -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.features-inner -->
+    </div>
+    <!-- /.features -->
+  </div>
+  <!-- /.features-wrapper -->
+
+  <div id="nav-information" class="speakers-wrapper">
+    <div class="container">
+      <h2>R4TLI 2016</h2>
+      <h4>Information</h4>
+
+      <div class="speakers">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#tab-1" data-toggle="tab">Topics</a></li>
+          <li><a href="#tab-2" data-toggle="tab">Important Dates</a></li>
+          <li><a href="#tab-3" data-toggle="tab">R4TLI Scientific Committee</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane fade in active" id="tab-1">
+            <div class="row speaker">
+              <div class="span6">
+                <p class="name">Airline Operations</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span6">
+                <p class="name">Airport Planning and Operations</p>
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <!-- /.speaker -->
+            <div class="row speaker">
+              <div class="span6">
+                <p class="name">Consumer and Demand Studies for Mobility</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span6">
+                <p class="name">ERP Solutions for Transport & Logistics</p>
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <div class="row speaker">
+              <div class="span6">
+                <p class="name">Economic Appraisal of Transport & Logistics Projects</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span6">
+                <p class="name">Freight Transport</p>
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <div class="row speaker">
+              <div class="span6">
+                <p class="name">ICT Solutions for Transport & Logistics</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span6">
+                <p class="name">Intermodal Transport</p>
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <div class="row speaker">
+              <div class="span6">
+                <p class="name">Operations Management</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span6">
+                <p class="name">Port Planning and Operations</p>
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <div class="row speaker">
+              <div class="span6">
+                <p class="name">Public Transport</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span6">
+                <p class="name">Safety in Mobility</p>
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <div class="row speaker">
+              <div class="span6">
+                <p class="name">Shipping Operations</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span6">
+                <p class="name">Supply Chain Management</p>
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <div class="row speaker">
+              <div class="span6">
+                <p class="name">Transport Planning</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span6">
+                <p class="name">Transport Policy and Regulation</p>
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <div class="row speaker">
+              <div class="span6">
+                <p class="name">Urban Transport Planning</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span6">
+                <p class="name">Warehousing and Inventory Management</p>
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <div class="row speaker">
+              <div class="span6">
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span6">
+              </div>
+              <!-- /.span3 -->
+            </div>
+          </div>
+          <!-- /.tab-1 -->
+
+
+          <div class="tab-pane fade" id="tab-2">
+            <div class="row speaker">
+              <div class="span1">
+
+              </div>
+              <!-- /.image -->
+
+              <div class="span5">
+                <p class="name">Call for Abstracts</p>
+                <p class="time"><span class="talk-title">Feb 1</span> 2016</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span5">
+                <p class="name">Submission of Slides for Presentation</p>
+                <p class="time"><span class="talk-title">May 31</span> 2016</p>
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <!-- /.speaker -->
+
+            <div class="row speaker">
+              <div class="span1">
+              </div>
+              <!-- /.image -->
+
+              <div class="span5">
+                <p class="name">Abstract Submission</p>
+                <p class="time"><span class="talk-title">Feb 29</span> 2016</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span5">
+                <p class="name">Conference</p>
+                <p class="time"><span class="talk-title">June 3-4</span> 2016</p>
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <!-- /.speaker -->
+            <div class="row speaker">
+              <div class="span1">
+              </div>
+              <!-- /.image -->
+
+              <div class="span5">
+                <p class="name">Acceptance Notification</p>
+                <p class="time"><span class="talk-title">March 31</span> 2016</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span5">
+                <div class="about">
+
+                </div>
+                <!-- /.about -->
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <!-- /.speaker -->
+            <div class="row speaker">
+              <div class="span1">
+              </div>
+              <!-- /.image -->
+
+              <div class="span5">
+                <p class="name">Camera Ready Abstract/Paper</p>
+                <p class="time"><span class="talk-title">April 30</span> 2016</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span5">
+                <div class="about">
+
+                </div>
+                <!-- /.about -->
+              </div>
+              <!-- /.span3 -->
+            </div>
+            <!-- /.speaker -->
+            <div class="row speaker">
+              <div class="span1">
+              </div>
+              <!-- /.image -->
+
+              <div class="span5">
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span5">
+                <div class="about">
+
+                </div>
+                <!-- /.about -->
+              </div>
+              <!-- /.span3 -->
+            </div>
+          </div>
+          <!-- /.tab-2 -->
+
+          <div class="tab-pane fade" id="tab-3">
+            <div class="row speaker">
+              <div class="span1">
+              </div>
+              <!-- /.image -->
+
+              <div class="span5">
+                <p class="name">Prof SC Wirasinghee</p>
+                <p class="company">University of Calgary (Co-chair)</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span5">
+                <p class="name">Prof Amal S. Kumarage</p>
+                <p class="company">University of Moratuwa (Co-chair)</p>
+              </div>
+
+            </div>
+            <!-- /.speaker -->
+            <div class="row speaker">
+              <div class="span1">
+              </div>
+              <!-- /.image -->
+
+              <div class="span5">
+                <p class="name">Dr Anburvel</p>
+                <p class="company">University of Jaffna</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span5">
+                <p class="name">Dr Mahinda Bandara</p>
+                <p class="company">University of Moratuwa</p>
+              </div>
+
+            </div>
+            <div class="row speaker">
+              <div class="span1">
+              </div>
+              <!-- /.image -->
+
+              <div class="span5">
+                <p class="name">Professor Steven Chien</p>
+                <p class="company">New Jersey Institute of Technology</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span5">
+                <p class="name">Mr. Lalith Edirisinghe</p>
+                <p class="company">CINEC Campus</p>
+              </div>
+
+            </div>
+            <div class="row speaker">
+              <div class="span1">
+              </div>
+              <!-- /.image -->
+
+              <div class="span5">
+                <p class="name">Dr TL Gunaruwan</p>
+                <p class="company">University of Colombo</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span5">
+                <p class="name">Dr Pradeepa Jayaratne</p>
+                <p class="company">University of Moratuwa</p>
+              </div>
+
+            </div>
+            <div class="row speaker">
+              <div class="span1">
+              </div>
+              <!-- /.image -->
+
+              <div class="span5">
+                <p class="name">Dr Ganga Samarasekera</p>
+                <p class="company">SLIIT</p>
+              </div>
+              <!-- /.span7 -->
+
+              <div class="span5">
+                <p class="name"></p>
+                <p class="company"></p>
+              </div>
+
+            </div>
+          </div>
+          <!-- /.tab-3 -->
+        </div>
+        <!-- /.tab-content -->
+      </div>
+      <!-- /.speakers -->
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.speakers-wrapper -->
+  <div id="nav-abstract" class="speakers-wrapper">
+    <div class="container">
+      <h2>Abstracts and Papers</h2>
+      <h4></h4>
+
+      <div class="speakers">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#tab-1-pricing" data-toggle="tab">Submission Instructions</a></li>
+          <li><a href="#tab-2-pricing" data-toggle="tab">Presentations / Publications</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane fade in active" id="tab-1-pricing">
+            <div class="container">
+              <div class="row speaker">
+                <div class="span12">
+                  <ul>
+                    <li>
+                      <blockquote class="name1" align="left">All abstracts should be written in English with a maximum paper length of 2 printed A4 pages including tables and figures. Submissions should be in Word in New Times Roman format to 12 fonts size and 1.15 spacing. All figures and
+                        tables should be clear and legible.</blockquote>
+                    </li>
+                    <li>
+                      <blockquote class="name1" align="left">Papers may be submitted through <a href="https://easychair.org/conferences/?conf=r4tli2016">EasyChair</a> or through direct email to <a href="mailto:ganga.s@sliit.lk" class="e-mail">ganga.s@sliit.lk</a></blockquote>
+                    </li>
+                    <li>
+                      <blockquote class="name1" align="left">Manuscripts that do not conform to the above formatting guidelines will not be considered</blockquote>
+                    </li>
+                    <li>
+                      <blockquote class="name1" align="left">We request all authors to carefully revise the paper for language and formatting.</blockquote>
+                    </li>
+                    <li>
+                      <blockquote class="name1" align="left">Manuscripts should subscribe to the objective of the conference and be based on a topic or research approach that is of relevant to the transport & logistics industry, especially in Sri Lanka</blockquote>
+                    </li>
+                    <li>
+                      <blockquote class="name1" align="left">Please contact <a href="mailto:ganga.s@sliit.lk" class="e-mail">ganga.s@sliit.lk</a> or <a href="mailto:mahindab@uom.lk" class="e-mail">mahindab@uom.lk</a> if you have any questions about submitting your papers.</blockquote>
+                    </li>
+                    <li>
+                      <blockquote class="name1" align="left">Manuscripts that do not conform to the above formatting guidelines will not be considered</blockquote>
+                    </li>
+                    <li>
+                      <blockquote class="talk-title" align="left"><a href="R4TLI_Paper_Format.docx" dowmload>Download Sample Research Paper Format</a></blockquote>
+                    </li>
+                    <li>
+                      <p class="name1" align="left"></p>
+                    </li>
+                  </ul>
+
+                </div>
+
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.container -->
+          </div>
+          <!-- /.tab-2 -->
+
+          <div class="tab-pane fade" id="tab-2-pricing">
+            <div class="container">
+              <div class="row speaker">
+                <div class="span12">
+                  <ul>
+                    <li>
+                      <blockquote class="name1" align="left" size="16">All abstracts that are accepted will be published as conference proceedings both in hard cover and digitally</blockquote>
+                    </li>
+                    <li>
+                      <blockquote align="left" class="name1">In addition any author who wishes to submit a longer and fuller paper for review and if accepted, will be published as peer reviewed full papers in the conference proceedings. Such papers should be fully referenced and not exceed
+                        12 pages in length.</blockquote>
+                      <li>
+                        <blockquote align="left" class="name1">The conference proceedings will be published digitally and steps will be taken to have it suitably indexed.</blockquote>
+                        <li>
+                          <blockquote align="left" class="name1">There will be 15 minutes for each presentation and 10 minutes for questions</blockquote>
+                          <li>
+                            <blockquote align="left" class="name1">It is recommended for presentations to be limited to 20 slides and to use font size of at least 20</p>
+                            </blockquote>
+                            <li>
+                              <p align="left"></p>
+                            </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /.row-->
+            </div>
+            <!-- /.container -->
+          </div>
+          <!-- /.tab-3 -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- /.pricing-wrapper -->
+  <hr>
+
+  <div class="our-partners-wrapper" id="our-partners">
+    <div class="our-partners container">
+      <div class="our-partners-inner">
+        <h2>Big thanks to our partners</h2>
+
+        <div class="row">
+          <div class="span4 center">
+            <a href="http://www.ciltsl.com/"><img class="our-partners-logo" src="assets/pictures/logo-theme-forest.png" alt="">
+              <p class="our-partners-logo" style="padding-left: 0px">Chartered Institute of Logistics and Transport Sri Lanka</p>
+            </a>
+          </div>
+          <!-- /.span3 -->
+
+          <div class="span4 center">
+            <a href="http://www.easts.info/"><img class="our-partners-logo" src="assets/pictures/EASTSLogo.gif" alt="" style="height: 80px;">
+              <p class="our-partners-logo" style="padding-left: 0px">Eastern Asia Society for Transportation Studies</p>
+            </a>
+          </div>
+          <!-- /.span3 -->
+
+
+          <div class="span4 center">
+            <a href="http://tlm.mrt.ac.lk/"><img class="our-partners-logo" src="assets/pictures/logo-photo-dune.png" alt="" style="height: 80px;">
+              <p class="our-partners-logo" style="padding-left: 0px">Department of Transport & Logistics Management</p>
+            </a>
+          </div>
+          <!-- /.span3 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.our-partners-inner -->
+    </div>
+    <!-- /.our-partners -->
+  </div>
+  <!-- /.our-partners-wrapper -->
+
+  <div id="nav-contact" class="footer-wrapper">
+    <div class="footer container">
+      <div class="footer-inner">
+        <div class="row">
+          <div class="item span4">
+            <h2>Contact us</h2>
+
+            <address>
+                        <i class="icon icon-normal-pointer"></i><span class="title"><strong>Department of Transport & Logistics Management</strong></span>
+
+                        <p>University of Moratuwa</p>
+
+                        <p>Moratuwa,Sri Lanka.</p>
+                    </address>
+
+            <address>
+                        <i class="icon icon-normal-mail"></i><a href="mailto:mahindab@uom.lk" class="e-mail">mahindab@uom.lk</a><br>
+                        <i class="icon icon-normal-mail"></i><a href="mailto:ganga.s@sliit.lk" class="e-mail">ganga.s@sliit.lk</a><br>
+                        <i class="icon icon-normal-mail"></i><a href="mailto:sg@ciltsl.com" class="e-mail">sg@ciltsl.com</a><br>
+                        <i class="icon icon-normal-phone"></i><span class="title">+94 11 2650398</span>
+                    </address>
+          </div>
+          <!-- /.item -->
+
+          <div class="item span8">
+            <h2>Any questions? Drop us a note</h2>
+
+            <form class="contact-form footer-form" method="post" action="http://html.infine.byaviators.com/contact.php">
+              <div class="row">
+                <div class="span4">
+                  <div class="control-group">
+                    <div class="controls">
+                      <input type="text" name="name" placeholder="Your name" required="required">
+                      <span class="icon icon-normal-profile-male"></span>
+                    </div>
+                    <!-- /.controls -->
+                  </div>
+                  <!-- /.control-group -->
+                </div>
+                <!-- /.span4 -->
+
+                <div class="span4">
+                  <div class="control-group">
+                    <div class="controls">
+                      <input type="email" name="email" placeholder="Your e-mail" required="required">
+                      <span class="icon icon-normal-mail"></span>
+                    </div>
+                    <!-- /.controls -->
+                  </div>
+                  <!-- /.control-group -->
+                </div>
+                <!-- /.span4 -->
+              </div>
+              <!-- /.row -->
+
+              <div class="row">
+                <div class="span8">
+                  <div class="control-group">
+                    <div class="controls">
+                      <textarea name="message" placeholder="Your message" required="required"></textarea>
+                      <span class="icon icon-normal-pencil"></span>
+                    </div>
+                    <!-- /.controls -->
+                  </div>
+                  <!-- /.control-group -->
+                </div>
+                <!-- /.span8 -->
+              </div>
+              <!-- /.row -->
+
+              <div class="form-actions">
+                <input type="submit" class="btn btn-send span2" value="Send">
+              </div>
+              <!-- /.form-actions -->
+            </form>
+            <!-- /.footer-form -->
+          </div>
+          <!-- /.item -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.footer-inner -->
+    </div>
+    <!-- /.footer -->
+    <div class="footer container" id="venue">
+      <div class="footer-inner">
+        <div class="row">
+          <div class="item span12">
+            <h2>Conference Venue</h2>
+            <address>
+                          <i class="icon icon-normal-pointer"></i><span class="title"><strong>Hotel Galadari </strong></span>
+                          <p>Lotus Rd,</p>
+                          <p> Colombo 00100,</p>
+
+                          <p>Sri Lanka</p>
+                      </address>
+
+            <address>
+                          <i class="icon icon-normal-phone"></i><span class="title">+94 11 2 544544</span>
+                      </address>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="map">
+
+    </div>
+    <!-- /#map -->
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="copyright span9">
+            &copy; 2016 Copyright by <a href="" class="">Department of Transport & Logistics Management</a>
+          </div>
+          <!-- /.copyright -->
+
+          <div class="icons">
+            <a href="#" class="social-icon"><img src="assets/icons/icon-twitter.png" alt=""></a>
+            <a href="#" class="social-icon"><img src="assets/icons/icon-facebook.png" alt=""></a>
+            <a href="#" class="social-icon"><img src="assets/icons/icon-youtube.png" alt=""></a>
+          </div>
+          <!-- /.icons -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.footer bottom -->
+  </div>
+  <!-- /.footer-wrapper -->
+
+
+  <script type="text/javascript" src="assets/js/retina.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <script type="text/javascript" src="assets/js/kinetic.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/placeholder.js"></script>
+  <script type="text/javascript" src="assets/js/countdown.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.cycle2.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.cycle2.carousel.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.cycle2.center.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.cycle2.scrollVert.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.cycle2.swipe.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.cycle2.caption2.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.parallax-1.1.3.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.localscroll-1.2.7-min.js"></script>
+  <script type="text/javascript" src="assets/fancybox/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="assets/fancybox/helpers/jquery.fancybox-media.js"></script>
+  <script type="text/javascript" src="assets/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+  <script type="text/javascript" src="assets/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+  <script type="text/javascript" src="assets/js/infine.js"></script>
+
+</body>
+
+</html>
