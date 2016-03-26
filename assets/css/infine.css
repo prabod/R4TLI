@@ -308,13 +308,13 @@
     line-height: 85px
 }
 .header-wrapper .header .header-item h1 {
-    color: #F44336;
+    color: #FFF;
     font-weight: lighter;
     margin-bottom: 20px;
     text-align: center
 }
 .header-wrapper .header .header-item h4 {
-    margin-bottom: 120px
+    color: #FFF;
 }
 .header-wrapper .header .header-item .title {
     margin-bottom: 50px;
@@ -822,7 +822,7 @@
     margin-bottom: 30px
 }
 .speakers-wrapper .nav-tabs a {
-    color: rgba(255, 255, 255, 0.3);
+    color: #fff;
     background-color: transparent;
     border-left: none;
     border-right: none;
@@ -848,7 +848,7 @@
     -moz-transition: all 0.1s ease;
     -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.3);
     border-bottom: 2px solid;
     border-bottom-color: #fff
 }
@@ -857,7 +857,7 @@
     -moz-transition: all 0.1s ease;
     -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.3);
     border-bottom: 2px solid;
     border-bottom-color: #fff
 }
@@ -917,17 +917,23 @@
     color: #898989;
     font-family: "Arial", sans-serif
 }
+.speakers-wrapper .speaker .company1 {
+    color: #898989;
+    font-size: 18px;
+    font-family: "Arial", sans-serif
+}
+
 .speakers-wrapper .speaker .talk-title {
     color: #ff7e5b;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: lighter;
-    line-height: 30px;
+    line-height: 26px;
     padding-top: 5px;
     padding-bottom: 10px
 }
 .speakers-wrapper .speaker .time {
     color: rgba(255, 255, 255, 0.3);
-    font-size: 36px;
+    font-size: 20px;
     font-weight: lighter;
     padding-top: 10px;
     padding-bottom: 5px
@@ -968,7 +974,7 @@
         padding-bottom: 5px
     }
     .speakers-wrapper .talk-title {
-        font-size: 28px;
+        font-size: 20px;
         padding-top: 5px;
         padding-bottom: 5px
     }
@@ -998,7 +1004,7 @@
         padding-bottom: 0px
     }
     .speakers-wrapper .talk-title {
-        font-size: 22px;
+        font-size: 18px;
         padding-top: 0px;
         padding-bottom: 0px
     }
@@ -1049,7 +1055,7 @@
         margin-bottom: 0px
     }
     .speakers-wrapper .talk-title {
-        line-height: 28px
+        line-height: 20px
     }
 }
 .pricing-wrapper .pricing {

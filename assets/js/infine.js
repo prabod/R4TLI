@@ -6,7 +6,7 @@ $(document).ready(function() {
     }
 
     $('.fullwidthbanner').revolution({
-        delay: 9000,
+        delay: 4000,
         startheight: 800,
         startwidth: 1170,
 
@@ -135,10 +135,18 @@ $(document).ready(function() {
         position: new google.maps.LatLng(6.931679,79.843155),
         map: map
     });
-
+    new google.maps.Marker({
+        position: new google.maps.LatLng(6.9331,79.8418),
+        map: map
+    });
     var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
     map.mapTypes.set('Styled', styledMapType);
-
+    google.maps.event.addDomListener(window, 'load', initialize);
+    google.maps.event.addDomListener(window, "resize", function() {
+     var center = map.getCenter();
+     google.maps.event.trigger(map, "resize");
+     map.setCenter(center);
+    });
 
     $('input[name=subscribe]').closest('form').submit(function(e) {
         e.preventDefault();
