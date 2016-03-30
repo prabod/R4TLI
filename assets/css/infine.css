@@ -181,6 +181,14 @@
 .parallax-wrapper.parallax-first {
     background: url(../pictures/parallax-bg-1.jpg) 50% 0 no-repeat fixed
 }
+.kingsbury {
+    background-image: url(../pictures/hotel/3.jpg);
+    background-size: 400px;
+}
+.galadari {
+    background-image: url(../pictures/hotel/4.jpg);
+    background-size: 400px;
+}
 .parallax-wrapper.parallax-second {
     background: url(../pictures/parallax-bg-2.jpg) 50% 0 no-repeat fixed
 }
@@ -307,14 +315,22 @@
     font-weight: bold;
     line-height: 85px
 }
-.header-wrapper .header .header-item h1 {
+.header-wrapper .header .header-item h3 {
     color: #FFF;
+    font-weight: lighter;
+    text-align: center
+}
+.header-wrapper .header .header-item h5 {
+    color: #FFF512;
     font-weight: lighter;
     margin-bottom: 20px;
     text-align: center
 }
 .header-wrapper .header .header-item h4 {
     color: #FFF;
+}
+header-wrapper .header .header-item h6 {
+  font-size: 18px;
 }
 .header-wrapper .header .header-item .title {
     margin-bottom: 50px;
@@ -806,6 +822,10 @@
     background-color: #292c33;
     padding-bottom: 40px
 }
+.speakers-wrapper1 {
+    background-color: #FFF;
+    padding-bottom: 40px
+}
 .speakers-wrapper h2 {
     color: #fff;
     font-weight: lighter
@@ -837,7 +857,7 @@
     outline: none
 }
 .speakers-wrapper .nav-tabs a:hover, .speakers-wrapper .nav-tabs a:focus {
-    color: rgba(255, 255, 255, 0.4);
+    color: #69ccff;
     background-color: transparent;
     border: none;
     border-bottom: 2px solid;
@@ -848,7 +868,7 @@
     -moz-transition: all 0.1s ease;
     -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
-    color: rgba(255, 255, 255, 0.3);
+    color: #69ccff;
     border-bottom: 2px solid;
     border-bottom-color: #fff
 }
@@ -857,7 +877,7 @@
     -moz-transition: all 0.1s ease;
     -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
-    color: rgba(255, 255, 255, 0.3);
+    color: #69ccff;
     border-bottom: 2px solid;
     border-bottom-color: #fff
 }
@@ -1403,7 +1423,8 @@
     width: 100%
 }
 .features-wrapper .features .features-inner .features-description {
-    color: #fff
+    color: #fff;
+    font-weight: lighter
 }
 .features-wrapper .features .features-inner .orange h3 {
     color: #ff8d72
@@ -1656,6 +1677,13 @@
     margin: 0px;
     padding-left: 33px
 }
+.footer-wrapper .footer .footer-inner p .date {
+    color: #69ccff;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0px;
+    padding-left: 33px
+}
 .footer-wrapper .footer .footer-inner h2 {
     font-weight: lighter;
     padding-bottom: 40px;
@@ -1835,6 +1863,10 @@
     .footer-wrapper .footer .footer-inner p {
         font-size: 14px
     }
+    .footer-wrapper .footer .footer-inner p .date {
+        color: #69ccff;
+        font-size: 14px;
+    }
     .footer-wrapper .footer .footer-inner address {
         line-height: 24px
     }
@@ -1922,6 +1954,9 @@ h4 {
 h5 {
     font-size: 14px;
     font-weight: normal
+}
+h6{
+  font-size: 18px;
 }
 hr {
     margin: 0px 0px

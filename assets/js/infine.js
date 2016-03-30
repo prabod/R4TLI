@@ -6,7 +6,7 @@ $(document).ready(function() {
     }
 
     $('.fullwidthbanner').revolution({
-        delay: 4000,
+        delay: 9000,
         startheight: 800,
         startwidth: 1170,
 
