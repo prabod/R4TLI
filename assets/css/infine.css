@@ -334,7 +334,7 @@ header-wrapper .header .header-item h6 {
 }
 .header-wrapper .header .header-item .title {
     margin-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 10px;
     position: relative;
     text-align: center;
     vertical-align: middle
@@ -1952,7 +1952,7 @@ h4 {
     text-align: center
 }
 h5 {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: normal
 }
 h6{
